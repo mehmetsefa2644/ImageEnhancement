@@ -15,6 +15,6 @@ a[0].imshow(img, cmap= pyplot.get_cmap('gray'))
 a[0].set_title('Original Image')
 
 a[1].imshow(noisyImage, cmap=pyplot.get_cmap('gray'))
-a[1].set_title('Original Image')
+a[1].set_title('Noisy Image')
 
 pyplot.show()
